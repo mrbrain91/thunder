@@ -6,7 +6,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    // align-items: center;
+    i {
+        margin: 0 auto;
+        color: #fff;
+        opacity: 0.4;
+        font-size: 34px;
+        margin-top: 200px;
+        &:hover {
+            opacity: 1;
+            font-size: 36px;
+        }
+    }
     &__menu {
         height: 30px;
         position: absolute;
@@ -63,11 +73,5 @@
                 margin-top: 29px;
             }
         }
-    }
-    &__arrow-down {
-        width: 30px;
-        height: 15px;
-        margin: 0 auto;
-        margin-top: 12px;
     }
 }
